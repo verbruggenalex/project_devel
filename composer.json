@@ -1,0 +1,29 @@
+{
+    "name": "verbruggenalex/project_devel",
+    "type": "drupal-custom-module",
+    "description": "Module used for development functionality",
+    "keywords": ["Drupal"],
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        "local": {
+            "type": "path",
+            "url": "../../*/*"
+        }
+    },
+    "require": {
+        "drupal/coder": "^8.3",
+        "drupal/devel": "^4.1",
+        "enlightn/security-checker": "^1.9",
+        "ergebnis/composer-normalize": "^2.15",
+        "mglaman/phpstan-drupal": "^1.1",
+        "php-parallel-lint/php-parallel-lint": "^1.3",
+        "phpmd/phpmd": "^2.10",
+        "phpro/grumphp": "^1.4",
+        "phpstan/phpstan-deprecation-rules": "^1.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
